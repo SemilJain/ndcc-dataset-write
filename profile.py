@@ -20,7 +20,7 @@ iface = node.addInterface()
 fsnode = request.RemoteBlockstore("fsnode", "/mydata")
 fsnode.dataset = "urn:publicid:IDN+utah.cloudlab.us:ndcc-pg0+ltdataset+ndcc-datasets"
 
-fsnode.rwclone = True
+#fsnode.rwclone = True
 
 fslink = request.Link("fslink")
 fslink.addInterface(iface)
